@@ -1,11 +1,10 @@
 let estadoLinterna = "apagado";
 
-/* sonidos */
+/* sounds */
 let sonidoBatman = document.querySelector("#bati_encendido");
 let sonidoBoton = document.querySelector("#bati_click");
 
 /* divs */
-
 let batman = document.querySelector("#batman");
 let boton = document.querySelector("#bati_boton ");
 
