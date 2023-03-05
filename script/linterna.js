@@ -32,6 +32,6 @@ function sonidoLinterna() {
   } else {
     sonidoBoton.play();
     sonidoBatman.pause();
-    sonidoBatman.currentTime=0;
+//  sonidoBatman.currentTime=0;
   }
 }
