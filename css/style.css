@@ -3,6 +3,13 @@
     padding:0;
     margin: 0;
 }
+.titulo {
+    font-family: Calibri Light;
+    font-size: larger;
+    color: darkgrey;
+    position: relative;
+    margin: 2% auto;
+}
 
 .batman{
   /*   posicionamiento */
