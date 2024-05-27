@@ -1,10 +1,10 @@
 *{
-/* box-sizing: border-box;   */
+ box-sizing: border-box;  
 padding: 0;
 margin: 0;  
 }
 #bckgnd {
-    box-sizing: border-box; 
+/*    box-sizing: border-box; */
     
     width: 100vw;
     min-height: 100vh;
