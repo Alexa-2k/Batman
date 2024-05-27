@@ -13,7 +13,8 @@ margin: 0;
     z-index: -1;
 }
 .title {
-margin: 0.5rem auto;
+margin: 0.5rem 40%;
+font-family: Calibri, sans-serif;    
 }
 .batman{
     position: fixed ;
