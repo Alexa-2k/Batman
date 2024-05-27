@@ -15,6 +15,9 @@ margin: 0.5rem 40%;
 font-family: Calibri, sans-serif;   
 position: relative;    
 }
+h1{
+margin-left: 45%;
+}
 .batman{
     position: fixed ;
     top:55%;
