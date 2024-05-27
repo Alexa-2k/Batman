@@ -5,7 +5,8 @@ margin: 0;
 }
 #bckgnd {
 /*    box-sizing: border-box; */
-    background-size: cover;
+    width: 100vw
+    min-height: 100vh;
     background-repeat: norepeat;
     background: url(../img/batmanBck.png);
     z-index: -1;
