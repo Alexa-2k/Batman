@@ -12,12 +12,12 @@ margin: 0;
     z-index: -1;
 }
 .title {
-margin: 0.5rem 40%;
+margin: 0.5rem 43%;
 font-family: Calibri, sans-serif;   
 position: relative;    
 }
 .title1{
-margin-left: 50% !important;
+margin-left: 45% !important;
 }
 .batman{
     position: fixed ;
