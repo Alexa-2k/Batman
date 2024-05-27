@@ -12,7 +12,9 @@ margin: 0;
     background: url(../img/batmanBck.png);
     z-index: -1;
 }
-
+.title {
+margin: 0.5rem auto;
+}
 .batman{
     position: fixed ;
     top:50%;
