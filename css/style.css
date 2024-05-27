@@ -1,41 +1,39 @@
 *{
-    box-sizing: border-box;
-    padding:0;
-    margin: 0;
+/* box-sizing: border-box;   */
+padding: 0;
+margin: 0;  
 }
-.titulo {
-    font-family: Calibri Light;
-    font-size: larger;
-    color: darkgrey;
-    position: relative;
-    margin: 2% auto;
-}
+#bckgnd {
+    /* box-sizing: content-box; */
+    
+    width: 100%;
+    min-height: 100%;
+    background: url(../img/batmanBck.png);
+    }
 
 .batman{
-  /*   posicionamiento */
-  position: fixed;
-  top:50%;
-  left:50%;
-  border-radius: 50%;
-  transform:translate(-50%,-50%);
- /*  Estilo */
- min-width: 700px;
- height: 500px;
- background-size: contain;
- background-repeat: no-repeat;
-background-position: center;
- background-image: url(../img/batmanOFF.jpg);
+    position: fixed ;
+    top:50%;
+    left:50%;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 700px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/batmanOFF.jpg); 
+ 
 }
 
-.batman_activo{
-    background-image: url(../img/batmanON.gif); 
+.batman_activo {
+    background-image: url(../img/batmanON.gif);
 }
 
-.bati_boton{
-     /*   posicionamiento */
-    margin:291px auto 0;
- /*  Estilo */
- width: 30px;
- height: 50px;
-/*  border:1px solid red;
- */}
+.bati_boton {
+    margin: 290px auto 0;
+    width: 30px;
+    height: 50px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
